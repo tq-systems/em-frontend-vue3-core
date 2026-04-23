@@ -1,4 +1,4 @@
-# @tq-em/em-vue3-core
+# @tq-systems/em-vue3-core
 
 Core utilities for building Vue 3 applications on the TQ-EM platform, including web component integration and route management.
 
@@ -8,14 +8,14 @@ First, configure your `.yarnrc.yml` to use the TQ-EM registry for scoped package
 
 ```yaml
 npmScopes:
-  tq-em:
+  tq-systems:
     npmRegistryServer: "<tq-em-registry-url>"
 ```
 
 Then install the package:
 
 ```bash
-yarn add @tq-em/em-vue3-core
+yarn add @tq-systems/em-vue3-core
 ```
 
 ## Features
@@ -32,7 +32,7 @@ yarn add @tq-em/em-vue3-core
 Converts a Vue 3 component into a custom web component (Custom Element).
 
 ```javascript
-import { defineVueWebComponent } from '@tq-em/em-vue3-core'
+import { defineVueWebComponent } from '@tq-systems/em-vue3-core'
 
 defineVueWebComponent(tagName, vueRootComponent, additionalPlugins)
 ```
@@ -53,7 +53,7 @@ defineVueWebComponent(tagName, vueRootComponent, additionalPlugins)
 Generates Vue Router route configurations from EM platform route definitions.
 
 ```javascript
-import { createAppRoutes } from '@tq-em/em-vue3-core'
+import { createAppRoutes } from '@tq-systems/em-vue3-core'
 
 const routes = createAppRoutes(emRoutes, wrapperComponent)
 ```
@@ -96,7 +96,7 @@ An array of Vue Router route objects with the following structure:
 ```javascript
 import { createRouter, createWebHistory } from 'vue-router'
 import { createI18n } from 'vue-i18n'
-import { defineVueWebComponent, createAppRoutes } from '@tq-em/em-vue3-core'
+import { defineVueWebComponent, createAppRoutes } from '@tq-systems/em-vue3-core'
 import App from './App.vue'
 import ViewWrapper from './components/ViewWrapper.vue'
 

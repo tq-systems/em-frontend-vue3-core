@@ -5,9 +5,9 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
-"@tq-em/em-vue3-core@workspace:.":
+"@tq-systems/em-vue3-core@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@tq-em/em-vue3-core@workspace:."
+  resolution: "@tq-systems/em-vue3-core@workspace:."
   peerDependencies:
     vue: ^3.5.13
     vue-router: ^4.5.0

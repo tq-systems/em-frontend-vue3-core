@@ -1,7 +1,1 @@
 ## [{{ version }}]
-### Changed
-- updated package.json for public use
-- license to TQSPSLA-1.0.3
-
-### Added
-- README.md
