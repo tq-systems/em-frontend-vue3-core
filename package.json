@@ -10,6 +10,9 @@
         "type": "git",
         "url": "https://github.com/tq-systems/em-frontend-vue3-core.git"
     },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
+    },
     "files": [
         "src/",
         "index.js",
