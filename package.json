@@ -1,6 +1,6 @@
 {
     "name": "@tq-systems/em-vue3-core",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Core utilities for building Vue 3 applications on the TQ-EM platform, including web component integration and route management.",
     "copyright": "TQ-Systems GmbH 2026",
     "license": "LicenseRef-TQSPSLA-1.0.3",
